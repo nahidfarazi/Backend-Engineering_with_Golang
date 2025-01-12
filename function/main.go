@@ -26,8 +26,7 @@ func clothItem(){
 	fmt.Scanln(&option)
 	switch option{
 	case "show" : showCloth()
-	}
-	var 
+	} 
 }
 
 
