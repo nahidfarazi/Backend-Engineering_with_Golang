@@ -1,27 +1,20 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
+func ReturnFunc(x, y, z int) int {
 
-
-
-func simple(a, b int) (int,int){
-	var sum int
-
-	sum = a+b
-	var g int
-	g = 5
-	return sum ,g
+	p := x * y * z
+	return p
 }
-func main() {
+func ArgumentFunc(a, b int) {
+	z := a + b
+	fmt.Println(z)
+}
 
-	var ferot, sum int
-	ferot,_= simple(2,3)
-	
-	c := 5
-	sum = ferot + c
-	fmt.Println(sum);
-	
+func main() {
+	res := ReturnFunc(2, 3, 4)
+	ArgumentFunc(12, 3)
+	fmt.Println(res)
+
 }

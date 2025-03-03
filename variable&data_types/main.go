@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+const fixed_number = 200
+
 func main() {
 	/* var x int = 20
 	var s string = "hello golang"
@@ -12,7 +14,8 @@ func main() {
 	f := 12.05
 	b := false
 	fmt.Println(x)
-	fmt.Println(s);
-	fmt.Println(f);
-	fmt.Println(b);
+	fmt.Println(s)
+	fmt.Println(f)
+	fmt.Println(b)
+	fmt.Println(fixed_number)
 }
